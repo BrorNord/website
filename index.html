@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bjarke Bloch</title>
+    <title>Your Name</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -18,12 +18,9 @@
     </header>
 
     <section id="hero">
-        <h1>
-            <span class="block" style="opacity: 1; transform: none;">Hey,</span>
-            <span class="block" style="opacity: 1; transform: none;">I’m Bjarke</span>
-            <p>IT Support Specialist</p>
-            <a href="#contact" class="btn">Contact Me</a>
-        </h1>
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+        <a href="#contact" class="btn">Contact Me</a>
     </section>
 
     <section id="about">
@@ -46,9 +43,18 @@
         <!-- Add more portfolio items as needed -->
     </section>
 
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Bjarke Bloch</p>
+        <p>&copy; 2024 Your Name</p>
     </footer>
 
     <script src="scripts.js"></script>
