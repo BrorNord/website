@@ -1,27 +1,37 @@
 .header {
-    background-color: #38C6C5; /* Light blue color */
+    background-color: #ADD8E6; /* Light blue color */
     color: white;
-    padding: 20px 0;
-    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 10px; /* Rounded corners */
 }
 
-.header nav ul {
-    list-style-type: none;
+.left h1 {
     margin: 0;
-    padding: 0;
 }
 
-.header nav ul li {
-    display: inline;
-    margin-right: 20px;
+.right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
 }
 
-.header nav ul li a {
+.right a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
-.header nav ul li a:hover {
-    text-decoration: underline;
+.btn:hover {
+    background-color: #555;
 }
